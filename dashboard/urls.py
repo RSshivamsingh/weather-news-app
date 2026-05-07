@@ -1,7 +1,6 @@
-from django.contrib import admin
-from django.urls import path, include # Import include
+from django.urls import path
+from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('dashboard.urls')), # Link to your dashboard app
+    path('', views.index, name='index'), # Points to a FUNCTION
 ]
