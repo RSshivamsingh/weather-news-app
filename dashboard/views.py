@@ -1,4 +1,3 @@
-from django.shortcuts import render
-
 def index(request):
-    return render(request, 'dashboard/index.html')
+    # Remove 'dashboard/' from the path
+    return render(request, 'index.html')
