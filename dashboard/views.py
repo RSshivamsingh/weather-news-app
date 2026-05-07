@@ -3,8 +3,8 @@ import requests
 
 def index(request):
     # 1. Setup API Keys (Use your own keys here)
-    weather_key = "YOUR_OPENWEATHER_API_KEY"
-    news_key = "YOUR_NEWSAPI_KEY"
+    weather_key = "cecf7f448d8dc1b0a94f741c315f923b"
+    news_key = "22fd676e10474879942f4f2a1421b95a"
     
     # 2. Fetch Weather (Patna)
     w_url = f"http://api.openweathermap.org/data/2.5/weather?q=Patna&appid={weather_key}&units=metric"
