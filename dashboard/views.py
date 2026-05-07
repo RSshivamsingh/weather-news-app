@@ -1,3 +1,6 @@
+from django.shortcuts import render
+import requests  # <--- THIS IS THE MISSING LINE
+
 def index(request):
     weather_key = "cecf7f448d8dc1b0a94f741c315f923b"
     news_key = "22fd676e10474879942f4f2a1421b95a"
